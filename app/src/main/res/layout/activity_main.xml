@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_fon"
+    tools:context=".MainActivity">
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:background="#EBD305"
+        android:layout_x="40dp"
+        android:layout_y="100dp"/>
+
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_x="170dp"
+        android:background="#F8DF06"
+        android:layout_y="300dp"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_x="40dp"
+        android:layout_y="500dp"
+        android:background="#EBD406"/>
+
+
+</AbsoluteLayout>
